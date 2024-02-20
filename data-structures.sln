@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "linear", "linear", "{F10A982D-F36B-48FB-B22E-18FD9D598206}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "static", "static", "{FD553CCB-9AB9-40BA-B1EE-8C43FACAA18E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array", "linear\static\array\Array.csproj", "{69AAB234-4700-4046-A3F5-759076F18DCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69AAB234-4700-4046-A3F5-759076F18DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AAB234-4700-4046-A3F5-759076F18DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AAB234-4700-4046-A3F5-759076F18DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AAB234-4700-4046-A3F5-759076F18DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD553CCB-9AB9-40BA-B1EE-8C43FACAA18E} = {F10A982D-F36B-48FB-B22E-18FD9D598206}
+		{69AAB234-4700-4046-A3F5-759076F18DCC} = {FD553CCB-9AB9-40BA-B1EE-8C43FACAA18E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F04D2822-B56F-44F2-B522-2061D7FFABBE}
+	EndGlobalSection
+EndGlobal
